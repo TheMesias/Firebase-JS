@@ -1,0 +1,152 @@
+
+
+body{
+   
+    height: 100vh;
+}
+
+.cont_pricipal{
+    display: flex;
+}
+
+
+img{
+    width: 20%;
+}
+
+.left{
+    width: 40%;
+}
+
+.right{
+    width: 80%;
+}
+
+.left .logo{
+    text-align: center;
+    margin-top: 20px
+
+}
+
+.left .logo img{
+    width: 20%;
+}
+
+.btn-group-vertical {
+    width: 100%;
+}
+
+.btn-group-vertical button{
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    background: #061628;
+    border: none;
+    margin-left: 35px;
+}
+
+.btn-group-vertical button img{
+    width: 10%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+}
+
+form h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+form input {
+     outline: none;
+      display: block;
+    background: none;
+      width: 100%;
+      border: 0;
+      border-radius: 4px;
+      box-sizing: border-box;
+      padding: 12px 20px;
+      color: gray;
+      font-family: inherit;
+      font-size: inherit;
+      font-weight: semibold;
+      line-height: inherit;
+      border-bottom: 1px solid white;
+
+}
+
+form label{
+    margin-top: 10px;
+}
+
+form button{
+    outline: none;
+    background: rgb(15, 106, 235);
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    padding: 12px 20px;
+    color: #000;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: semibold;
+    line-height: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#tasks-container{
+    display: flex;
+    margin-top: 20px;
+    padding: 1rem;
+    flex-wrap: wrap;
+ 
+}
+.card{
+    padding: 1rem;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+
+.list-group-item{
+    --bs-list-group-color: #000;
+}
+
+.img{
+    width: 50%;
+    margin: auto;
+}
+
+.img img{
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.card button {
+z-index: 99;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 40px;
+  background:  #099be4;
+  border-radius: 20px;
+  color: #FFF;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 200;
+  border: none;
+  margin-top: 20px;
+}
+
+.card-body{
+    text-align: center;
+}
