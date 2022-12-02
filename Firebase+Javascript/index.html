@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://bootswatch.com/5/quartz/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cont_pricipal">
+    <div class="left">
+        <div class="logo">
+            <img src="./img/logo.png" alt="">
+            <h1>PlayAll</h1>
+        </div>
+        <div class="btn-group-vertical">
+            <button type="button" class="btn btn-primary">
+               Jugadores
+               <img src="./img/jugador.png" alt="" srcset="">
+            </button>
+            <button type="button" class="btn btn-primary">Futbol
+                <img src="./img/tri.png" alt="" srcset="">
+            </button>
+            <button type="button" class="btn btn-primary">Paintball
+                <img src="./img/paint.png" alt="" srcset="">
+            </button>
+            <button type="button" class="btn btn-primary">Tenis
+                <img src="./img/tenis.png" alt="">
+            </button>
+            <button type="button" class="btn btn-primary">Basquet
+                <img src="./img/basquet.png" alt="" srcset="">
+            </button>
+            <button type="button" class="btn btn-primary">Voleibol
+                <img src="./img/voleibol.png" alt="" srcset="">
+            </button>
+          </div>
+    </div>
+    <div class="right">
+
+
+    <form action="" id="task-form">
+        <h1>Registar Jugadores</h1>
+        <label for="title">Nombre: </label>
+        <input type="text" placeholder="" id="name" required>
+        <label for="title">Apellido: </label>
+        <input type="text" placeholder="" id="surname" required>
+        <label for="title">Correo: </label>
+        <input type="text" placeholder="" id="email" required>
+        <label for="title">Edad: </label>
+        <input type="number" placeholder="" id="age" required>
+        <label for="title">Genero: </label>
+        <input type="text" placeholder="" id="gen" required>
+
+        <button id="btn-task-save">Guardar</button>
+    </form>
+
+</div>
+</div>
+<div id="tasks-container"></div>
+
+    <script type="module" src="./index.js"></script>
+  
+</body>
+</html>
